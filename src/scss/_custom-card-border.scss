@@ -1,0 +1,10 @@
+.custom-card-border {
+  mask-image: linear-gradient(135deg, transparent 1.15rem, gold 0),
+    linear-gradient(-135deg, transparent 1.15rem, gold 0),
+    linear-gradient(45deg, transparent 1.15rem, gold 0),
+    linear-gradient(-45deg, transparent 1.15rem, gold 0);
+  mask-position: 0 0, 130% 0, 0 130%, 100% 100%;
+  mask-repeat: no-repeat;
+  mask-size: 60% 60%;
+  border: 1px solid black;
+}

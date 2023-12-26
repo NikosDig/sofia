@@ -12,6 +12,26 @@ body {
   background-image: url(../../assets/images/home-1-bottom-bg1.png);
 }
 
+.custom-card-border {
+  mask-image: linear-gradient(135deg, transparent 1.15rem, gold 0), linear-gradient(-135deg, transparent 1.15rem, gold 0), linear-gradient(45deg, transparent 1.15rem, gold 0), linear-gradient(-45deg, transparent 1.15rem, gold 0);
+  mask-position: 0 0, 130% 0, 0 130%, 100% 100%;
+  mask-repeat: no-repeat;
+  mask-size: 60% 60%;
+  border: 1px solid black;
+}
+
+.cta {
+  text-decoration: none;
+  padding: 15px 45px;
+  color: white;
+  background-color: #36477d;
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+  margin: 40px auto;
+  width: 210px;
+}
+
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
