@@ -10,6 +10,13 @@
 
 body {
   background-image: url(../../assets/images/home-1-bottom-bg1.png);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
 }
 
 .custom-card-border {
@@ -11890,6 +11897,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.image {
+  width: 90%;
 }
 
 /*# sourceMappingURL=styles.css.map */

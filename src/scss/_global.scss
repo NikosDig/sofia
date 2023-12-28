@@ -1,3 +1,10 @@
 body {
   background-image: url(../../assets/images/home-1-bottom-bg1.png);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
 }
